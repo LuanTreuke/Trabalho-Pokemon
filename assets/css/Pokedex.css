@@ -28,8 +28,8 @@ article {
     display: flex;
     padding: 10px;
     height: 90vh;
-    min-width: 500px;
-    min-height: auto;
+    min-width: 150px;
+    min-height: 100px;
     width: 70vh;
     margin: 5vh 15vw;
     background-color: rgba(255, 255, 255, 0.95);
@@ -41,6 +41,20 @@ article {
     align-items: center;
     /* tira a barra de rolagem vertical */
     scrollbar-width: none;  
+}
+
+@media screen and (max-width: 768px) {
+    article{
+        height: 700px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    article{
+        height: 550px;
+        width: 350px;
+    }
 }
 
 /* esconde a barra de rolagem dos navegadores webkit do article */
@@ -79,6 +93,19 @@ article::-webkit-scrollbar{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 .card {
     background-color: #bbbbbb;
