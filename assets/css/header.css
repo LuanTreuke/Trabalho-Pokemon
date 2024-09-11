@@ -30,14 +30,11 @@ header{
     justify-content: flex-start;
 }
 
-
-/* aplica para os 'a' nao visitados e os 'a' visitados */
 a, a:visited{
     color: white;
     text-decoration: none;
 }
 
-/* seletor de filho direto */
 header > nav{
     display: flex;
 }
@@ -51,7 +48,6 @@ header > nav{
 }
 
 .nav-bar{
-    /* ocupa todo o espaço disponível */
     flex-grow: 1;
     text-align: center;
     display: flex;

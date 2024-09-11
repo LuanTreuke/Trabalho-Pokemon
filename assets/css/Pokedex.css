@@ -39,7 +39,6 @@ article {
     background-color: #dd3268;
     justify-content: center;
     align-items: center;
-    /* tira a barra de rolagem vertical */
     scrollbar-width: none;  
 }
 
@@ -57,31 +56,24 @@ article {
     }
 }
 
-/* esconde a barra de rolagem dos navegadores webkit do article */
 article::-webkit-scrollbar{
     display: none;
 }
 
 .scroll-container {
-    /* usei para mover o scroll-container para o meio */
     transform: translate(-5%, 5%);
     width: 60%;
     height: 50%;
-    /* ver conteudo em excesso scrollando */
     overflow-y: scroll;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     background-color: #c3e2ff;
     padding: 20px;
-    /* tirando barra de rolagem para outros navegadores */
     -ms-overflow-style: none;
-    /* tirando barra de rolagem */
     scrollbar-width: none;  
-    /* sombra atrás de sombra */
     box-shadow: -5px 5px 0px #531328, -8px 8px 0 #200810;
 }
 
-/* esconde a barra de rolagem dos navegadores webkit do scroll-container*/
 .scroll-container::-webkit-scrollbar{
     display: none;
 }
@@ -89,7 +81,6 @@ article::-webkit-scrollbar{
 .card-container {
     width: 100%;
     display: grid;
-    /* 3 colunas ocupando 1 fração do espaço disponivel */
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
@@ -120,7 +111,6 @@ article::-webkit-scrollbar{
     text-align: center;
     font-size: 0.9em;
     font-family: "Poppins", sans-serif;
-    /* transição do hover */
     transition: transform 0.2s ease;
 }
 

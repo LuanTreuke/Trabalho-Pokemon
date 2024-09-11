@@ -10,7 +10,6 @@
 body{
     display: flex;
     background-image: url("../img/Background.png");
-    /* repeat para criar efeito infinito */
     background-repeat: repeat;
     justify-content: center;
     flex-direction: column;
@@ -24,7 +23,6 @@ article{
     padding: 10px;
     height: 60vh;
     width: 50vw;
-    /* 0.95 para deixar transparente */
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
     border-style: ridge;
