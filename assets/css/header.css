@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home-button{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 3.5%;
+    transition: transform 0.2s ease;
+    padding: -10px;
+}
+
+#home-button:hover{
+    transform: scale(1.2);
+}
+ 
+header{
+    padding-right: 74px;
+    flex-direction: row;
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    min-height: 70px;
+    width: 100%;
+    background-color: rgba(28, 39, 61, 0.95); 
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+
+/* aplica para os 'a' nao visitados e os 'a' visitados */
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* seletor de filho direto */
+header > nav{
+    display: flex;
+}
+
+.nav-list{
+    font-family: "Poppins", sans-serif;
+    display: inline;
+    position: fixed;
+    margin: 20px 0vw 5px 0vw;
+    font-size: 100%; 
+}
+
+.nav-bar{
+    /* ocupa todo o espaço disponível */
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-li{
+    margin:0px 20px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.nav-li:hover{
+    transform: scale(1.2);
+}
