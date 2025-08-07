@@ -6,7 +6,10 @@ Este projeto é uma aplicação web estática desenvolvida para apresentar infor
 
 Luan Eduardo Treuke
 
+#
+
 Preview do site estático:
+
 ![pokemon 2 (1)](https://github.com/user-attachments/assets/b76e445f-88bd-4922-8730-394018545382)
 
 
