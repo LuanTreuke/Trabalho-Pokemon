@@ -16,7 +16,6 @@ Preview do site estático:
 ## Tecnologias Utilizadas
 - **HTML5**
 - **CSS3**
-- **JavaScript**
 
 ## Diferenciais do Projeto
 - Interface visual atrativa e temática.
